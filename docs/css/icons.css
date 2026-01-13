@@ -1,0 +1,320 @@
+/* 自定义图标样式 - 使用Unicode字符和CSS */
+
+/* 基础图标类 */
+.icon {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 使用伪元素实现图标 */
+i[class*="fa-"]::before,
+i[class*="fas"]::before {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* 大脑/AI图标 */
+.fa-brain::before {
+    content: "🧠";
+}
+
+/* 搜索图标 */
+.fa-search::before {
+    content: "🔍";
+}
+
+/* 关闭/删除图标 */
+.fa-times::before {
+    content: "✕";
+}
+
+/* 列表图标 */
+.fa-list::before {
+    content: "📋";
+}
+
+/* 眼睛/视觉图标 */
+.fa-eye::before {
+    content: "👁️";
+}
+
+/* 语言/文本图标 */
+.fa-language::before {
+    content: "💬";
+}
+
+/* 机器人/AI图标 */
+.fa-robot::before {
+    content: "🤖";
+}
+
+/* 图像/图片图标 */
+.fa-image::before {
+    content: "🖼️";
+}
+
+/* GitHub图标 */
+.fa-github::before {
+    content: "⚙";
+}
+
+/* 外部链接图标 */
+.fa-external-link-alt::before {
+    content: "🔗";
+}
+
+/* 书籍/文档图标 */
+.fa-book::before {
+    content: "📚";
+}
+
+/* 信息图标 */
+.fa-info-circle::before {
+    content: "ℹ️";
+}
+
+/* 标签图标 */
+.fa-tag::before {
+    content: "🏷️";
+}
+
+/* 标签组图标 */
+.fa-tags::before {
+    content: "🏷️";
+}
+
+/* 文件图标 */
+.fa-file-alt::before {
+    content: "📄";
+}
+
+/* 代码图标 */
+.fa-code::before {
+    content: "💻";
+}
+
+/* 箱子/盒子图标 */
+.fa-box::before {
+    content: "📦";
+}
+
+/* 立方体图标 */
+.fa-cube::before {
+    content: "🎲";
+}
+
+/* 多个立方体图标 */
+.fa-cubes::before {
+    content: "🎲";
+}
+
+/* 展开更多图标 */
+.fa-chevron-down::before {
+    content: "▼";
+    font-size: 0.7em;
+}
+
+/* 收起图标 */
+.fa-chevron-up::before {
+    content: "▲";
+    font-size: 0.7em;
+}
+
+/* 右箭头图标 */
+.fa-chevron-right::before {
+    content: "▶";
+    font-size: 0.7em;
+}
+
+/* 向下箭头（用于展开/折叠） */
+.fa-angle-down::before {
+    content: "▼";
+}
+
+/* 向右箭头（用于展开/折叠） */
+.fa-angle-right::before {
+    content: "▶";
+}
+
+/* 分类/分组图标 */
+.fa-layer-group::before {
+    content: "📊";
+}
+
+/* 网格图标 */
+.fa-th::before {
+    content: "⊞";
+}
+
+/* 定位/目标图标 */
+.fa-crosshairs::before {
+    content: "🎯";
+}
+
+/* 魔法棒/特效图标 */
+.fa-magic::before {
+    content: "✨";
+}
+
+/* 用户/人物图标 */
+.fa-user::before {
+    content: "👤";
+}
+
+/* 文本/字体图标 */
+.fa-font::before {
+    content: "𝐀";
+}
+
+/* 调色板图标 */
+.fa-palette::before {
+    content: "🎨";
+}
+
+/* 压缩图标 */
+.fa-compress::before {
+    content: "⇱";
+}
+
+/* 搜索加号图标 */
+.fa-search-plus::before {
+    content: "🔍+";
+}
+
+/* 走路/运动图标 */
+.fa-walking::before {
+    content: "🚶";
+}
+
+/* 方向/位置图标 */
+.fa-street-view::before {
+    content: "📍";
+}
+
+/* 检测图标 */
+.fa-bullseye::before {
+    content: "◉";
+}
+
+/* 箭头向上（超分辨率）*/
+.fa-arrow-up::before {
+    content: "↑";
+}
+
+/* 问题图标 */
+.fa-question-circle::before {
+    content: "❓";
+}
+
+/* 评论/对话图标 */
+.fa-comment::before {
+    content: "💭";
+}
+
+/* 排名图标 */
+.fa-sort-amount-down::before {
+    content: "📊";
+}
+
+/* 火焰图标 */
+.fa-fire::before {
+    content: "🔥";
+}
+
+/* 星星图标 */
+.fa-star::before {
+    content: "⭐";
+}
+
+/* 心形图标 */
+.fa-heart::before {
+    content: "❤️";
+}
+
+/* 过滤器图标 */
+.fa-filter::before {
+    content: "⏚";
+}
+
+/* 重置图标 */
+.fa-redo::before {
+    content: "↻";
+}
+
+/* 下载图标 */
+.fa-download::before {
+    content: "⬇";
+}
+
+/* 上传图标 */
+.fa-upload::before {
+    content: "⬆";
+}
+
+/* 设置/齿轮图标 */
+.fa-cog::before {
+    content: "⚙";
+}
+
+/* 播放图标 */
+.fa-play::before {
+    content: "▶";
+}
+
+/* 暂停图标 */
+.fa-pause::before {
+    content: "⏸";
+}
+
+/* 停止图标 */
+.fa-stop::before {
+    content: "⏹";
+}
+
+/* 检查/勾选图标 */
+.fa-check::before {
+    content: "✓";
+}
+
+/* 警告图标 */
+.fa-exclamation-triangle::before {
+    content: "⚠️";
+}
+
+/* 错误图标 */
+.fa-times-circle::before {
+    content: "✖";
+}
+
+/* 电子邮件图标 */
+.fa-envelope::before {
+    content: "✉";
+}
+
+/* 链接图标 */
+.fa-link::before {
+    content: "🔗";
+}
+
+/* 主页图标 */
+.fa-home::before {
+    content: "🏠";
+}
+
+/* fas类的通用设置 */
+.fas {
+    display: inline-block;
+    font-style: normal;
+}
+
+/* 确保图标不会被选中 */
+i[class*="fa-"] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
