@@ -552,6 +552,14 @@ main {
     padding-left: 16px;
 }
 
+.subcategory-list a.active {
+    background: linear-gradient(135deg, var(--primary) 0%, #0257b8 100%);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 102, 214, 0.25);
+    padding-left: 16px;
+}
+
 .toggle-subcategories {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     border: 1px solid rgba(0, 102, 214, 0.2);
@@ -772,13 +780,15 @@ main {
     z-index: 10;
     font-size: 0.9rem;
     letter-spacing: 0.3px;
-    white-space: nowrap;
 }
 
 .models-table td {
     padding: 16px 18px;
     border-bottom: 1px solid #e9ecef;
     vertical-align: middle;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
 }
 
 .models-table tr {
